@@ -161,7 +161,7 @@ function initMap() {
       <img style="float:left; width:200px; margin-top:30px" src="img/logo_${category}.png">
       <div style="margin-left:220px; margin-bottom:20px;">
         <h2>${name}</h2><p>${description}</p>
-        <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
+        <p><b>Open:</b> ${hours}<br/><b>Availability:</b> ${availablity}</p>
         <p><img src="https://maps.googleapis.com/maps/api/streetview?size=350x120&location=${position.lat()},${position.lng()}&key=${apiKey}"></p>
       </div>
     `;
