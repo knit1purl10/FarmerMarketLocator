@@ -124,20 +124,23 @@ function sanitizeHTML(strings) {
 function initMap() {
 
   // Create the map.
-  const map = new google.maps.Map(document.getElementsByClassName('map')[0], {
-    zoom: 7,
+  var baseMap = new google.maps.Map(document.getElementsByClassName('map')[0], {
+    zoom: 13,
     center: {lat: 33.7490, lng: -84.3880},
     styles: mapStyle
   });
 
+  var map = new google.maps.TransitLayer();
+  map.setMap(baseMap);
+
   // Load the stores GeoJSON onto the map.
-  map.data.loadGeoJson('https://github.com/knit1purl10/FarmerMarketLocator/blob/master/src/stores.json');
+  baseMap.data.loadGeoJson('https://api.myjson.com/bins/1amn4m.json');
 
   // Define the custom marker icons, using the store's "category".
-  map.data.setStyle(feature => {
+  baseMap.data.setStyle(feature => {
     return {
       icon: {
-        url: `img/icon_${feature.getProperty('type')}.png`,
+        url: `img/icon_cafe.png`,
         scaledSize: new google.maps.Size(64, 64)
       }
     };
@@ -148,7 +151,7 @@ function initMap() {
   infoWindow.setOptions({pixelOffset: new google.maps.Size(0, -30)});
 
   // Show the information for a store when its marker is clicked.
-  map.data.addListener('click', event => {
+  baseMap.data.addListener('click', event => {
 
     const category = event.feature.getProperty('type');
     const name = event.feature.getProperty('name');
