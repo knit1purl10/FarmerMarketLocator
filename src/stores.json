@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7541787,
+          -84.4676609
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "tuesday",
+        "hours": "3pm - 7pm",
+        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "name": "Fresh MARTA Market at West End Station",
+        "address": "680 Lee St SW, Atlanta, GA 30310",
+        "availability": "May 1 to November 27"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7541787,
+          -84.4676609
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "wednesday",
+        "hours": "3pm - 7pm",
+        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "name": "Fresh MARTA Market at H.E. Holmes Station",
+        "address": "",
+        "availability": "May 9 to November 28"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.65076,
+          -84.44824640000002
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "thursday",
+        "hours": "3pm - 7pm",
+        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "name": "Fresh MARTA Market at College Park Station",
+        "address": "",
+        "availability": "May 10 to November 29"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7538799,
+          -84.39162099999999
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "friday",
+        "hours": "3pm - 7pm",
+        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "name": "Fresh MARTA Market at Five Points Station",
+        "address": "",
+        "availability": "May 4 to November 30 (except November 24)"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.778788,
+          -84.297573
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "wednesday",
+        "hours": "4pm - 7pm",
+        "description": "Spoil yourself or someone special with our classic pastries. We're part of a larger chain of patisseries and cafes.",
+        "name": "Decatur Farmers Market",
+        "address": "",
+        "availability": "April 11 - December 19"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.778788,
+          -84.297573
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "saturday",
+        "hours": "9am - 1pm (saturday)",
+        "description": "Come and feast your eyes and tastebuds on our delicious pastries and cakes. We're part of a larger chain of patisseries and cafes.",
+        "name": "Decatur Farmers Market",
+        "address": "",
+        "availability": "April 14 to December 15"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7385136,
+          -84.34468340000001
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "thursday",
+        "hours": "4pm - 8pm",
+        "description": "Josie's Patisserie is family-owned, and our delectable pastries, cakes, and great coffee are renowed. We're part of a larger chain of patisseries and cafes.",
+        "name": "East Atlanta Village Farmers Market",
+        "address": "572 Stokeswood Ave",
+        "availability": "April 12 to November 15"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7387694,
+          -84.37358039999998
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "sunday",
+        "hours": "9am - 1pm",
+        "description": "Oakham's favorite spot for fresh coffee and delicious cakes. We're part of a larger chain of patisseries and cafes.",
+        "name": "Grant Park Farmers Market",
+        "address": "600 CHEROKEE AVE SE",
+        "availability": "April 8 to December 16"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7727683,
+          -84.36559669999997
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "tuesday",
+        "hours": "4pm - 8pm",
+        "description": "Enjoy freshly brewed coffe, and home baked cakes in our homely cafe. We're part of a larger chain of patisseries and cafes.",
+        "name": "Ponce City Farmers Market",
+        "address": "THE SHED AT PONCE CITY MARKET, 675 PONCE DE LEON AVE NE",
+        "availability": "April 10 to November 20"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.211363,
+          51.108966
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "cafe",
+        "hours": "8am - 9:30pm",
+        "description": "A delicious array of pastries with many flavours, and fresh coffee in an snug cafe. We're part of a larger chain of patisseries and cafes.",
+        "name": "Josie's Cafe Crawley",
+        "availability": "+44 1010 101010"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.123559,
+          50.832679
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "cafe",
+        "hours": "8am - 9:30pm",
+        "description": "Grab a freshly brewed coffee, a decadent cake and relax in our idyllic cafe. We're part of a larger chain of patisseries and cafes.",
+        "name": "Josie's Cafe Brighton",
+        "availability": "+44 1313 131313"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.319575,
+          52.517827
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "cafe",
+        "hours": "8am - 9:30pm",
+        "description": "Come in and unwind at this idyllic cafe with fresh coffee and home made cakes. We're part of a larger chain of patisseries and cafes.",
+        "name": "Josie's Cafe Newtown",
+        "availability": "+44 1414 141414"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.158167,
+          52.071634
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "cafe",
+        "hours": "8am - 9:30pm",
+        "description": "Fresh coffee and delicious cakes in an snug cafe. We're part of a larger chain of patisseries and cafes.",
+        "name": "Josie's Cafe Ipswich",
+        "availability": "+44 1717 17171"
+      }
+    }
+  ]
+}
