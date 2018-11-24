@@ -153,25 +153,23 @@ function initMap() {
   // Show the information for a store when its marker is clicked.
   baseMap.data.addListener('click', event => {
 
-    const category = event.feature.getProperty('type');
-    const name = event.feature.getProperty('name');
-    const description = event.feature.getProperty('description');
-    const hours = event.feature.getProperty('hours');
-    const availablity = event.feature.getProperty('availability');
-    const address = event.feature.getProperty('address');
-    const position = event.feature.getGeometry().get();
-    const content = sanitizeHTML`
-      <img style="float:left; width:200px; margin-top:30px" src="img/logo_${category}.png">
+    let name = event.feature.getProperty('name');
+    let description = event.feature.getProperty('description');
+    let hours = event.feature.getProperty('hours');
+    let availability = event.feature.getProperty('availability');
+    let address = event.feature.getProperty('address');
+    let position = event.feature.getGeometry().get();
+    let content = sanitizeHTML`
+      <img style="float:left; width:200px; margin-top:30px" src="img/logo_cafe.png">
       <div style="margin-left:220px; margin-bottom:20px;">
         <h2>${name}</h2><p>${description}</p>
-        <p><b>Open:</b> ${hours}<br/><b>Availability:</b> ${availablity}</p>
-        <p><img src="https://maps.googleapis.com/maps/api/streetview?size=350x120&location=${position.lat()},${position.lng()}&key=${apiKey}"></p>
+        <p><b>Open:</b> ${hours}<br/><b>Availability:</b> ${availability}</p>
       </div>
     `;
 
     infoWindow.setContent(content);
     infoWindow.setPosition(position);
-    infoWindow.open(map);
+    infoWindow.open(baseMap);
   });
 
 }
