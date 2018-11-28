@@ -23,12 +23,49 @@
 <head>
 <body>
   <h3>Farm Girls</h3>
-  <div class="map"></div>
+  <i>A CS4745/CS6745 proposed sustainability project.</i>
 
-  <script src="app.js"></script>
+  <div id="container">
+  <div class="date_selector">
+    <fieldset id="form">
+        <p>
+        <input class="chk-btn" id="monday" name="filter" type="checkbox" value="monday" />
+        <label for="monday">Monday</label>
+        </p>
+        <p>
+        <input class="chk-btn" id="tuesday" name="filter" type="checkbox" value="tuesday" />
+        <label for="tuesday">Tuesday</label>
+        </p>
+        <p>
+        <input class="chk-btn" id="wednesday" name="filter" type="checkbox" value="wednesday" />
+        <label for="wednesday">Wednesday</label>
+        </p>
+        <p>
+        <input class="chk-btn" id="thursday" name="filter" type="checkbox" value="thursday" />
+        <label for="thursday">Thursday</label>
+        </p>
+        <p>
+        <input class="chk-btn" id="friday" name="filter" type="checkbox" value="friday" />
+        <label for="friday">Friday</label>
+        </p>
+        <p>
+        <input class="chk-btn" id="saturday" name="filter" type="checkbox" value="saturday" />
+        <label for="saturday">Saturday</label>
+        </p>
+        <p>
+        <input class="chk-btn" id="sunday" name="filter" type="checkbox" value="sunday" />
+        <label for="sunday">Sunday</label>
+        </p>
+    </fieldset>
+  </div>
+  <div id="map"></div>
+</div>
+<div id="info"></div>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVwWWC6az0ozFA93rqESb5shgCcfm36oE&callback=initMap">
   </script>
+  <script src="app2.js"></script>
 </body>
 </html>

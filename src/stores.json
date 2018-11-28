@@ -102,7 +102,7 @@
       "type": "Feature",
       "properties": {
         "operating": "saturday",
-        "hours": "9am - 1pm (saturday)",
+        "hours": "9am - 1pm",
         "description": "Come and feast your eyes and tastebuds on our delicious pastries and cakes. We're part of a larger chain of patisseries and cafes.",
         "name": "Decatur Farmers Market",
         "address": "",
@@ -162,6 +162,75 @@
         "address": "THE SHED AT PONCE CITY MARKET, 675 PONCE DE LEON AVE NE",
         "availability": "April 10 to November 20"
       }
-    }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7541787,
+          -84.4676609
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "tuesday",
+        "hours": "3pm - 7pm",
+        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "name": "Fresh MARTA Market at West End Station",
+        "address": "680 Lee St SW, Atlanta, GA 30310",
+        "availability": "May 1 to November 27"
+      }
+    },{
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7541787,
+          -84.4676609
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "tuesday",
+        "hours": "3pm - 7pm",
+        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "name": "Fresh MARTA Market at West End Station",
+        "address": "680 Lee St SW, Atlanta, GA 30310",
+        "availability": "May 1 to November 27"
+      }
+    },{
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7541787,
+          -84.4676609
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "tuesday",
+        "hours": "3pm - 7pm",
+        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "name": "Fresh MARTA Market at West End Station",
+        "address": "680 Lee St SW, Atlanta, GA 30310",
+        "availability": "May 1 to November 27"
+      }
+    },{
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7541787,
+          -84.4676609
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "tuesday",
+        "hours": "3pm - 7pm",
+        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "name": "Fresh MARTA Market at West End Station",
+        "address": "680 Lee St SW, Atlanta, GA 30310",
+        "availability": "May 1 to November 27"
+      }
+    },
   ]
 }

@@ -107,6 +107,8 @@ const mapStyle = [
   }
 ];
 
+var filters = {sunday:false, monday:false, tuesday:false, wedsneday:false, thursday:false, friday:false, saturday:false}
+
 // Escapes HTML characters in a template literal string, to prevent XSS.
 // See https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet#RULE_.231_-_HTML_Escape_Before_Inserting_Untrusted_Data_into_HTML_Element_Content
 function sanitizeHTML(strings) {
@@ -120,6 +122,8 @@ function sanitizeHTML(strings) {
   }
   return result;
 }
+
+
 
 function initMap() {
 
@@ -137,14 +141,14 @@ function initMap() {
   baseMap.data.loadGeoJson('https://api.myjson.com/bins/1amn4m.json');
 
   // Define the custom marker icons, using the store's "category".
-  baseMap.data.setStyle(feature => {
+  /*baseMap.data.setStyle(feature => {
     return {
       icon: {
         url: `img/icon_cafe.png`,
         scaledSize: new google.maps.Size(64, 64)
       }
     };
-  });
+  });*/
 
   const apiKey = 'AIzaSyDVwWWC6az0ozFA93rqESb5shgCcfm36oE';
   const infoWindow = new google.maps.InfoWindow();
