@@ -59,7 +59,7 @@ var map_filter = function(id_val) {
 function loadMarkers() {
   console.log('creating markers')
   var infoWindow = new google.maps.InfoWindow()
-  geojson_url = 'https://api.myjson.com/bins/1bh8aa.json'
+  geojson_url = 'https://api.myjson.com/bins/hv5fe.json'
   $.getJSON(geojson_url, function(result) {
       // Post select to url.
       data = result['features']
@@ -79,7 +79,7 @@ function loadMarkers() {
           properties: val['properties']
          });
 
-        var markerInfo = "<div><h3>" + titleText + "</h3>"
+        var markerInfo = "<div id=\"infodisplay\"><h2>" + titleText + "</h2>"
         markerInfo += "<b>Hours</b>: " + hours
         markerInfo += "<br><b>Availability</b>: " + availability
         markerInfo += "<br><b>Address</b>: " + address
