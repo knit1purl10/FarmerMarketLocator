@@ -13,7 +13,7 @@
       "properties": {
         "operating": "tuesday",
         "hours": "3pm - 7pm",
-        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "description": "Cash, Credit and EBT/SNAP",
         "name": "Fresh MARTA Market at West End Station",
         "address": "680 Lee St SW, Atlanta, GA 30310",
         "availability": "May 1 to November 27"
@@ -31,7 +31,7 @@
       "properties": {
         "operating": "wednesday",
         "hours": "3pm - 7pm",
-        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "description": "Cash, Credit and EBT/SNAP",
         "name": "Fresh MARTA Market at H.E. Holmes Station",
         "address": "",
         "availability": "May 9 to November 28"
@@ -49,7 +49,7 @@
       "properties": {
         "operating": "thursday",
         "hours": "3pm - 7pm",
-        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "description": "CCash, Credit and EBT/SNAP",
         "name": "Fresh MARTA Market at College Park Station",
         "address": "",
         "availability": "May 10 to November 29"
@@ -67,7 +67,7 @@
       "properties": {
         "operating": "friday",
         "hours": "3pm - 7pm",
-        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "description": "Cash, Credit and EBT/SNAP",
         "name": "Fresh MARTA Market at Five Points Station",
         "address": "",
         "availability": "May 4 to November 30 (except November 24)"
@@ -85,7 +85,7 @@
       "properties": {
         "operating": "wednesday",
         "hours": "4pm - 7pm",
-        "description": "Spoil yourself or someone special with our classic pastries. We're part of a larger chain of patisseries and cafes.",
+        "description": "Cash, Credit and EBT/SNAP",
         "name": "Decatur Farmers Market",
         "address": "",
         "availability": "April 11 - December 19"
@@ -103,7 +103,7 @@
       "properties": {
         "operating": "saturday",
         "hours": "9am - 1pm",
-        "description": "Come and feast your eyes and tastebuds on our delicious pastries and cakes. We're part of a larger chain of patisseries and cafes.",
+        "description": "Cash, Credit and EBT/SNAP",
         "name": "Decatur Farmers Market",
         "address": "",
         "availability": "April 14 to December 15"
@@ -121,7 +121,7 @@
       "properties": {
         "operating": "thursday",
         "hours": "4pm - 8pm",
-        "description": "Josie's Patisserie is family-owned, and our delectable pastries, cakes, and great coffee are renowed. We're part of a larger chain of patisseries and cafes.",
+        "description": "Cash, Credit and EBT/SNAP",
         "name": "East Atlanta Village Farmers Market",
         "address": "572 Stokeswood Ave",
         "availability": "April 12 to November 15"
@@ -139,7 +139,7 @@
       "properties": {
         "operating": "sunday",
         "hours": "9am - 1pm",
-        "description": "Oakham's favorite spot for fresh coffee and delicious cakes. We're part of a larger chain of patisseries and cafes.",
+        "description": "Cash, Credit and EBT/SNAP",
         "name": "Grant Park Farmers Market",
         "address": "600 CHEROKEE AVE SE",
         "availability": "April 8 to December 16"
@@ -157,7 +157,7 @@
       "properties": {
         "operating": "tuesday",
         "hours": "4pm - 8pm",
-        "description": "Enjoy freshly brewed coffe, and home baked cakes in our homely cafe. We're part of a larger chain of patisseries and cafes.",
+        "description": "Cash, Credit and EBT/SNAP",
         "name": "Ponce City Farmers Market",
         "address": "THE SHED AT PONCE CITY MARKET, 675 PONCE DE LEON AVE NE",
         "availability": "April 10 to November 20"
@@ -175,62 +175,65 @@
       "properties": {
         "operating": "tuesday",
         "hours": "3pm - 7pm",
-        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
-        "name": "Fresh MARTA Market at West End Station",
-        "address": "680 Lee St SW, Atlanta, GA 30310",
-        "availability": "May 1 to November 27"
-      }
-    },{
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.7541787,
-          -84.4676609
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "operating": "tuesday",
-        "hours": "3pm - 7pm",
-        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
-        "name": "Fresh MARTA Market at West End Station",
-        "address": "680 Lee St SW, Atlanta, GA 30310",
-        "availability": "May 1 to November 27"
-      }
-    },{
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.7541787,
-          -84.4676609
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "operating": "tuesday",
-        "hours": "3pm - 7pm",
-        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
-        "name": "Fresh MARTA Market at West End Station",
-        "address": "680 Lee St SW, Atlanta, GA 30310",
-        "availability": "May 1 to November 27"
-      }
-    },{
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          33.7541787,
-          -84.4676609
-        ]
-      },
-      "type": "Feature",
-      "properties": {
-        "operating": "tuesday",
-        "hours": "3pm - 7pm",
-        "description": "Cash, Credit and EBT/SNAP accepted here! EBT/SNAP 2 for 1 available here!",
+        "description": "Cash, Credit and EBT/SNAP",
         "name": "Fresh MARTA Market at West End Station",
         "address": "680 Lee St SW, Atlanta, GA 30310",
         "availability": "May 1 to November 27"
       }
     },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.075727,
+          -84.296514
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "saturday",
+        "hours": "8:30am - 1pm",
+        "description": "Check out Alpharetta",
+        "name": "Alpharetta Farmers Market",
+        "address": "Old Canton Street between Milton Avenue and Canton Street",
+        "availability": "April 14 to November 27"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.775665,
+          -84.272363
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "sunday",
+        "hours": "10am - 1pm",
+        "description": "Check out Avondale",
+        "name": "Avondale Estates Farmers Markets",
+        "address": "22 N. Avondale Road",
+        "availability": "April 8 to November 27"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.859582,
+          -84.33469
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "operating": "saturday",
+        "hours": "9am - 12pm",
+        "description": "Check out Brookhaven",
+        "name": "Brookhaven Farmers Market",
+        "address": "1375 Fernwood Circle",
+        "availability": "April 7 to November 27"
+      }
+    }
   ]
 }
